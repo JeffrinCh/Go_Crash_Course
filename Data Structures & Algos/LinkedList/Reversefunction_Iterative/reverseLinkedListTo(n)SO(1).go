@@ -1,11 +1,12 @@
 package main
 
+// LinkedList struct
 type LinkedList struct {
 	Value int
 	Next  *LinkedList
 }
 
-//Time complexity : T: O(n) S: O(1)
+// ReverseLinkedList Time complexity : T: O(n) S: O(1)
 func ReverseLinkedList(head *LinkedList) *LinkedList {
 	var currentNode, previousNode *LinkedList
 	currentNode = head
