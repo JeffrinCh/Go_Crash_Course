@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println("THis is my practise go program")
+	fmt.Println("This is my practise go program")
 }
